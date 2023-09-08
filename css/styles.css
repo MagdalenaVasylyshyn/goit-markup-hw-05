@@ -603,3 +603,20 @@ footer {
 .footer-logo-p {
   margin-right: 120px;
 }
+
+.footer-subscribe-form {
+  display: flex;
+}
+
+.subscribe-submit-button {
+  display: flex;
+}
+
+.footer-subscribe-paragraph {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
