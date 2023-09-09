@@ -618,8 +618,10 @@ footer {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  position: relative;
   width: 165px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-subscribe-paragraph {
@@ -646,7 +648,6 @@ footer {
 
 .subscribe-icon {
   fill: #FFFFFF;
-  position: absolute;
   top: 50%;
   /* left: 0; */
   right: 24px;
