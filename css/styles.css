@@ -617,11 +617,12 @@ footer {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  width: 165px;
   height: 40px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  min-width: 165px;
+  border: none;
 }
 
 .footer-subscribe-paragraph {
@@ -644,7 +645,16 @@ footer {
   /* margin-right: 24px; */
   background-color: transparent;
   padding-left: 16px;
-  width: 264рх;
+  width: 264px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
+}
+
+.subscribe-email-input::placeholder {
+  color: #ffffff;
 }
 
 .subscribe-icon {
@@ -872,4 +882,8 @@ footer {
 
 .review-form-checkbox-wrapper {
   margin-bottom: 24px;
+}
+
+.review-form {
+  gap: 24px;
 }
