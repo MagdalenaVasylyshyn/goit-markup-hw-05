@@ -636,7 +636,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop is-open" data-modal>
       <div class="modal">
         <button class="close-btn">
           <svg
@@ -734,7 +734,7 @@
           <div class="review-form-checkbox-wrapper">
             <input
               type="checkbox"
-              class="review-form-checkbox"
+              class="review-form-checkbox visually-hidden"
               id="user-privacy"
               name="user_privacy"
               value="true"
@@ -742,13 +742,13 @@
             />
             <label for="user-privacy" class="review-form-checkbox-label">
               <span class="review-form-own-checkbox">
-                <svg class="review-form-own-checkbox-icon">
-                  <use
-                    href="./images/icons.svg#icon-checkbox"
-                    width="10"
-                    height="8"
-                    aria-label="checkbox icon"
-                  ></use>
+                <svg
+                  class="review-form-own-checkbox-icon"
+                  width="10"
+                  height="8"
+                  aria-label="checkbox icon"
+                >
+                  <use href="./images/icons.svg#icon-checkbox"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
