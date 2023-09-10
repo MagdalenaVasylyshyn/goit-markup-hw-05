@@ -728,8 +728,13 @@ footer {
 
 .close-btn:hover .close-btn-icon,
 .close-btn:focus .close-btn-icon{
-  background-color: #404BBF;
+  /* background-color: #404BBF; */
   fill: #FFFFFF;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  background-color: #404BBF;
 }
 
 .close-btn-icon {
